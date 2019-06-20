@@ -20,7 +20,6 @@
 		1887BC4C216F7789002E4B8D /* AQLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887BC3C216F7787002E4B8D /* AQLog.swift */; };
 		1887BC4D216F7789002E4B8D /* StoreImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887BC3D216F7787002E4B8D /* StoreImage.swift */; };
 		1887BC4E216F7789002E4B8D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887BC3E216F7787002E4B8D /* Constants.swift */; };
-		1887BC4F216F7789002E4B8D /* UtilRealmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887BC3F216F7787002E4B8D /* UtilRealmData.swift */; };
 		1887BC50216F7789002E4B8D /* UtilityUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887BC40216F7788002E4B8D /* UtilityUserDefaults.swift */; };
 		1887BC51216F7789002E4B8D /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887BC41216F7788002E4B8D /* DateFormatter.swift */; };
 		1887BC52216F7789002E4B8D /* UtilWriteLogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887BC42216F7788002E4B8D /* UtilWriteLogs.swift */; };
@@ -31,6 +30,7 @@
 		1887BC57216F7789002E4B8D /* EventBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887BC47216F7789002E4B8D /* EventBus.swift */; };
 		1887BC58216F7789002E4B8D /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887BC48216F7789002E4B8D /* ReachabilityManager.swift */; };
 		1887BC59216F7789002E4B8D /* YPDrawSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887BC49216F7789002E4B8D /* YPDrawSignatureView.swift */; };
+		F6AA650B27B3E435DD17BC2A /* Pods_BasicSetupiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FAAF19F9DA3CE26D888AE87 /* Pods_BasicSetupiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +70,6 @@
 		1887BC3C216F7787002E4B8D /* AQLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AQLog.swift; sourceTree = "<group>"; };
 		1887BC3D216F7787002E4B8D /* StoreImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreImage.swift; sourceTree = "<group>"; };
 		1887BC3E216F7787002E4B8D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		1887BC3F216F7787002E4B8D /* UtilRealmData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilRealmData.swift; sourceTree = "<group>"; };
 		1887BC40216F7788002E4B8D /* UtilityUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityUserDefaults.swift; sourceTree = "<group>"; };
 		1887BC41216F7788002E4B8D /* DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		1887BC42216F7788002E4B8D /* UtilWriteLogs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilWriteLogs.swift; sourceTree = "<group>"; };
@@ -81,6 +80,9 @@
 		1887BC47216F7789002E4B8D /* EventBus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventBus.swift; sourceTree = "<group>"; };
 		1887BC48216F7789002E4B8D /* ReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
 		1887BC49216F7789002E4B8D /* YPDrawSignatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPDrawSignatureView.swift; sourceTree = "<group>"; };
+		196ADF1D4DAEC32CA4D25EE4 /* Pods-BasicSetupiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicSetupiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-BasicSetupiOS/Pods-BasicSetupiOS.release.xcconfig"; sourceTree = "<group>"; };
+		5FAAF19F9DA3CE26D888AE87 /* Pods_BasicSetupiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasicSetupiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		879AD0649586D8C21BD14CC0 /* Pods-BasicSetupiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicSetupiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BasicSetupiOS/Pods-BasicSetupiOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6AA650B27B3E435DD17BC2A /* Pods_BasicSetupiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +118,8 @@
 				1887BC1F216F7702002E4B8D /* BasicSetupiOSTests */,
 				1887BC2A216F7702002E4B8D /* BasicSetupiOSUITests */,
 				1887BC06216F76FE002E4B8D /* Products */,
+				E7A606C1F7977C8BBE29C8E8 /* Pods */,
+				6AB074ECF772115078E918AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -176,12 +181,28 @@
 				1887BC3B216F7787002E4B8D /* TextHelpers.swift */,
 				1887BC40216F7788002E4B8D /* UtilityUserDefaults.swift */,
 				1887BC46216F7788002E4B8D /* UtilPrintLogs.swift */,
-				1887BC3F216F7787002E4B8D /* UtilRealmData.swift */,
 				1887BC42216F7788002E4B8D /* UtilWriteLogs.swift */,
 				1887BC43216F7788002E4B8D /* VersionUtils.swift */,
 				1887BC49216F7789002E4B8D /* YPDrawSignatureView.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		6AB074ECF772115078E918AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FAAF19F9DA3CE26D888AE87 /* Pods_BasicSetupiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7A606C1F7977C8BBE29C8E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				879AD0649586D8C21BD14CC0 /* Pods-BasicSetupiOS.debug.xcconfig */,
+				196ADF1D4DAEC32CA4D25EE4 /* Pods-BasicSetupiOS.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1887BC30216F7702002E4B8D /* Build configuration list for PBXNativeTarget "BasicSetupiOS" */;
 			buildPhases = (
+				AC28E978B63183333914CA02 /* [CP] Check Pods Manifest.lock */,
 				1887BC01216F76FE002E4B8D /* Sources */,
 				1887BC02216F76FE002E4B8D /* Frameworks */,
 				1887BC03216F76FE002E4B8D /* Resources */,
+				990B51C19867B8DA80F4AA8B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,13 +275,16 @@
 				TargetAttributes = {
 					1887BC04216F76FE002E4B8D = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1020;
 					};
 					1887BC1B216F7702002E4B8D = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 1887BC04216F76FE002E4B8D;
 					};
 					1887BC26216F7702002E4B8D = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 1887BC04216F76FE002E4B8D;
 					};
 				};
@@ -310,6 +336,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		990B51C19867B8DA80F4AA8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BasicSetupiOS/Pods-BasicSetupiOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/KSToastView/KSToastView.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KSToastView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BasicSetupiOS/Pods-BasicSetupiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC28E978B63183333914CA02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BasicSetupiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1887BC01216F76FE002E4B8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -322,7 +397,6 @@
 				1887BC58216F7789002E4B8D /* ReachabilityManager.swift in Sources */,
 				1887BC4C216F7789002E4B8D /* AQLog.swift in Sources */,
 				1887BC52216F7789002E4B8D /* UtilWriteLogs.swift in Sources */,
-				1887BC4F216F7789002E4B8D /* UtilRealmData.swift in Sources */,
 				1887BC51216F7789002E4B8D /* DateFormatter.swift in Sources */,
 				1887BC4D216F7789002E4B8D /* StoreImage.swift in Sources */,
 				1887BC4A216F7789002E4B8D /* SwiftExtentions.swift in Sources */,
@@ -504,9 +578,11 @@
 		};
 		1887BC31216F7702002E4B8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 879AD0649586D8C21BD14CC0 /* Pods-BasicSetupiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D99P97B7T;
 				INFOPLIST_FILE = BasicSetupiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -514,16 +590,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = clevertrap.BasicSetupiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		1887BC32216F7702002E4B8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 196ADF1D4DAEC32CA4D25EE4 /* Pods-BasicSetupiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D99P97B7T;
 				INFOPLIST_FILE = BasicSetupiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -531,7 +609,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = clevertrap.BasicSetupiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -550,7 +628,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = clevertrap.BasicSetupiOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BasicSetupiOS.app/BasicSetupiOS";
 			};
@@ -570,7 +648,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = clevertrap.BasicSetupiOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BasicSetupiOS.app/BasicSetupiOS";
 			};
@@ -589,7 +667,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = clevertrap.BasicSetupiOSUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = BasicSetupiOS;
 			};
@@ -608,7 +686,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = clevertrap.BasicSetupiOSUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = BasicSetupiOS;
 			};

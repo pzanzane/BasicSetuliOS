@@ -38,7 +38,7 @@ extension UIViewController {
     
     public func showAlert(title: String?, message: String?, closure: @escaping () -> Void) {
         
-        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
             switch action.style{
             case .default:
@@ -55,12 +55,12 @@ extension UIViewController {
         
     }
     
-    public func showAlert(title: String?, message: String?, actions:[UIAlertActionStyle], closure: @escaping (UIAlertActionStyle) -> Void){
+    public func showAlert(title: String?, message: String?, actions:[UIAlertAction.Style], closure: @escaping (UIAlertAction.Style) -> Void){
         
-        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
         //Add Multiple actions
         for userAction in actions{
-            let Actiontitle = (userAction == UIAlertActionStyle.default) ? "Yes" : "Cancel"
+            let Actiontitle = (userAction == UIAlertAction.Style.default) ? "Yes" : "Cancel"
             alert.addAction(UIAlertAction(title: Actiontitle , style: userAction, handler: { action in
                 switch action.style{
                 case .default:
@@ -101,7 +101,7 @@ public extension UIImageView {
     }
     
     public func tintImageColor(color : UIColor) {
-        self.image = self.image!.withRenderingMode(UIImageRenderingMode.alwaysTemplate)
+        self.image = self.image!.withRenderingMode(UIImage.RenderingMode.alwaysTemplate)
         self.tintColor = color
     }
     

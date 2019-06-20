@@ -29,7 +29,6 @@ class ReachabilityManager: NSObject {
           //  showMessage(message:"Network became unreachable")
         case .wifi, .cellular:
          
-           SyncService.sharedInstance().syncData()
          return
           
            // showMessage(message:"Network reachable ")

@@ -4,7 +4,7 @@ import UIKit
 public class StoreImage {
     
     open class func saveImage(image: UIImage, fileName: String, _ compressionQuality: CGFloat) -> Bool {
-        guard let data = UIImageJPEGRepresentation(image, compressionQuality) ?? UIImagePNGRepresentation(image) else {
+        guard let data = image.jpegData(compressionQuality: compressionQuality) ?? image.pngData() else {
             return false
         }
         guard let directory = try? FileManager.default.url(for: .documentDirectory,

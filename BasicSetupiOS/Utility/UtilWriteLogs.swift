@@ -14,26 +14,26 @@ public class UtilWriteLogs {
 public static let curruntDate = DateFormatterUtil.format(dateTime: Double(Date().timeIntervalSince1970), format: DateFormatterUtil.yyyyMMddHHmm)
     
     public static func writeLog(timesStamp: String?, event:String?,objectId:String?,lastSynch:String?){
-      let objTimeStamp = ModelTimesStampLog()
-        objTimeStamp.id = HexGenerator.sharedInstance().generate()
-        objTimeStamp.timesStamp = timesStamp
-        objTimeStamp.event = event
-        objTimeStamp.objectId = objectId ?? "--"
-        objTimeStamp.lastSyncTime = lastSynch ?? "--"
-        RealmManager().write(table: objTimeStamp)
-        //print(RealmManager().readList(type: ModelTimesStampLog.self))
-        UtilPrintLogs.DLog(message:"Times stamp info", objectToPrint: RealmManager().readList(type: ModelTimesStampLog.self))
+//      let objTimeStamp = ModelTimesStampLog()
+//        objTimeStamp.id = HexGenerator.sharedInstance().generate()
+//        objTimeStamp.timesStamp = timesStamp
+//        objTimeStamp.event = event
+//        objTimeStamp.objectId = objectId ?? "--"
+//        objTimeStamp.lastSyncTime = lastSynch ?? "--"
+//        RealmManager().write(table: objTimeStamp)
+//        //print(RealmManager().readList(type: ModelTimesStampLog.self))
+//        UtilPrintLogs.DLog(message:"Times stamp info", objectToPrint: RealmManager().readList(type: ModelTimesStampLog.self))
 }
     
     public static func updateLog(id:String,timesStamp: String?, event:String?,objectId:String?,lastSynch:String?){
-        let objTimeStamp = ModelTimesStampLog()
-        objTimeStamp.id = id
-        objTimeStamp.timesStamp = timesStamp ?? "--"
-        objTimeStamp.event = event ?? "--"
-        objTimeStamp.objectId = objectId ?? "--"
-        objTimeStamp.lastSyncTime = lastSynch ?? "--"
-        RealmManager().write(table: objTimeStamp)
-        UtilPrintLogs.DLog(message:"Times stamp info", objectToPrint: RealmManager().readList(type: ModelTimesStampLog.self))
+//        let objTimeStamp = ModelTimesStampLog()
+//        objTimeStamp.id = id
+//        objTimeStamp.timesStamp = timesStamp ?? "--"
+//        objTimeStamp.event = event ?? "--"
+//        objTimeStamp.objectId = objectId ?? "--"
+//        objTimeStamp.lastSyncTime = lastSynch ?? "--"
+//        RealmManager().write(table: objTimeStamp)
+//        UtilPrintLogs.DLog(message:"Times stamp info", objectToPrint: RealmManager().readList(type: ModelTimesStampLog.self))
         //print(RealmManager().readList(type: ModelTimesStampLog.self))
     }
 }
